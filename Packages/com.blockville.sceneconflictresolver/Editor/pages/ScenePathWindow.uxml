@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="ENTER PATHS" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: center; align-self: center; font-size: 26px; margin-bottom: 20px; margin-top: 10px; margin-right: 8px; margin-left: 8px;" />
+        <ui:TextField picking-mode="Ignore" label="Old Scene Path" value="Assets/Scenes/..." name="OldPathInput" style="-unity-text-align: upper-center; margin-right: 10%; margin-left: 10%; font-size: 17px; margin-top: 10px; margin-bottom: 10px;" />
+        <ui:TextField picking-mode="Ignore" label="New Scene Path" value="Assets/Scenes/..." name="NewPathInput" password="false" style="-unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=146aca1b754ac1d44930654e09417e79&amp;type=3#NotInter-Regular&apos;); font-size: 17px; margin-right: 10%; margin-left: 10%; margin-top: 10px; margin-bottom: 10px;" />
+        <ui:Label parse-escape-sequences="true" display-tooltip-when-elided="true" name="ErrorLabel" style="margin-right: 10%; margin-left: 10%; margin-top: 10px; margin-bottom: 10px; font-size: 18px; -unity-text-align: upper-center; color: rgb(197, 0, 49); -unity-font-style: bold;" />
+        <ui:Button text="Apply" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ApplyButton" style="align-self: center;" />
+    </ui:VisualElement>
+</ui:UXML>

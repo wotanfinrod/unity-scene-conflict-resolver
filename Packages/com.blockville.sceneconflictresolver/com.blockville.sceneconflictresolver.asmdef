@@ -1,0 +1,13 @@
+{
+    "name": "com.blockville.sceneconflictresolver",
+    "references": [
+        "UnityEngine.CoreModule",
+        "MyYamlParser",
+        "YamlDotNet"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="WelcomeElement" style="justify-content: center; align-items: auto; flex-direction: row; margin-top: 7.5px; margin-bottom: 7.5px; width: 90%; align-self: center;">
+        <ui:Label text="Conflict Count : xx" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CountLabel" />
+    </ui:VisualElement>
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="Conflicts" style="-unity-text-align: upper-left; align-items: center; justify-content: center; height: 64%; width: 90%; align-self: center;" />
+    <ui:VisualElement style="flex-grow: 1; height: auto; width: 90%; align-self: center; max-height: 102px; flex-direction: row; align-items: center; justify-content: flex-start;">
+        <ui:Button text="Apply" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ApplyButton" style="width: 99px;" />
+        <ui:Button text="Revert" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RevertButton" style="width: 99px;" />
+        <ui:Button text="Select All &quot;Old&quot;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AllOld" style="width: 99px;" />
+        <ui:Button text="Select All &quot;New&quot;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AllNew" style="width: 99px;" />
+        <ui:VisualElement style="flex-grow: 1; align-items: flex-end; justify-content: flex-end;">
+            <ui:Label text="asdasadasdsadasdsadsa" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ErrorLabel" style="-unity-text-align: upper-center; align-self: flex-end; justify-content: flex-end; -unity-font-style: bold; color: rgb(176, 0, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
